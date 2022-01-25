@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-image: url('photo-1546405439-fdf97d946f48.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px 10px #888888;
+    font-size: 50px;
+
+    padding: 40px;
+    text-overflow: hidden;
+    color: white;
+  }
+  input{
+    text-align: center;
+  }
+
