@@ -4,7 +4,10 @@ function autoRefresh() {
  
   function data() {
     var x = document.getElementById("c").value;
-
+  if(x=="" || x==" "){
+      document.getElementById("x").innerHTML ="Name Cannot Be Blank";
+    }
+          else{
     const api_url = "https://api.nationalize.io?name=" + x;
     async function getuser() {
       const response = await fetch(api_url);
@@ -20,4 +23,5 @@ function autoRefresh() {
         }
     }
     getuser();
+          }
   }
